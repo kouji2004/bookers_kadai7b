@@ -76,7 +76,6 @@
   </table>
   <canvas id="myLineChart"></canvas>
   <script>
-    $(document).on('turbolinks:load', function() {
       var ctx = document.getElementById("myLineChart");
       var myLineChart = new Chart(ctx, {
         type: 'line',
@@ -117,5 +116,4 @@
           },
         }
       });
-    });
   </script>
